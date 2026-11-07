@@ -7,15 +7,17 @@
       "section": "Basics",
       "headings": [
         "Open a Bible",
-        "Explore a verse",
-        "Get more help"
+        "Toolbar controls",
+        "Verse selection",
+        "Explore a verse"
       ],
       "headingSlugs": [
         "open-a-bible",
-        "explore-a-verse",
-        "get-more-help"
+        "toolbar-controls",
+        "verse-selection",
+        "explore-a-verse"
       ],
-      "body": "Getting started II Timothy 2:15 Study to shew thyself approved unto God, a workman that needeth not to be ashamed, rightly dividing the word of truth. Marginalia has over 160 translations of the Bible in over 60 languages all wrapped in a modern, easy to use interface with an unlimited number of parallel Bibles. But Marginalia is unique in that it brings your own notes and your ministry's resources directly into your Bible! Open a Bible When the app loads, the King James Version is available locally. Use Settings to choose languages and connect additional translation libraries. Explore a verse Click a verse number (or select verse text) to open the side panel with Translations, Resources, and Links for that passage. Get more help Use the help icon in the header any time. Articles here stay in sync with the product; some include Show me how walkthroughs that highlight controls in the app itself."
+      "body": "Getting started II Timothy 2:15 Study to shew thyself approved unto God, a workman that needeth not to be ashamed, rightly dividing the word of truth. Marginalia has over 160 translations of the Bible in over 60 languages all wrapped in a modern, easy to use interface with an unlimited number of parallel Bibles. But Marginalia is unique in that it brings your own notes and your ministry's resources directly into your Bible! Open a Bible When the app loads, the King James Version is shown by default. Other translations from your browser's language are available as well. Open the Translations panel to explore other translations in your language, or use Settings to choose additional languages. Toolbar controls There will be a visual indication of the currently selected verse or verses. From the toolbar, you can: Copy the text of the verse to the clipboard by clicking the Copy button or pressing Ctrl+C. Copy the URL to the selected verse by clicking the Share button. Verse selection Multiple verses can be selected in multiple ways: On mobile, long-tap on a verse, then tap on another verse to select a range. With a verse selected, Shift+Click another verse to select a range of verses, or Ctrl to select multiple individual verses. Use Shift+Up or Shift+Down to select a range of verses. Use Ctrl+Up or Ctrl+Down to move your selection to the previous or next verse. Explore a verse Click a verse number (or select verse text) to open Translations, Resources, and Links for that passage in the side panel."
     },
     {
       "id": "settings",
@@ -36,34 +38,32 @@
       "title": "Searching Scripture",
       "section": "Basics",
       "headings": [
+        "Searching Scriptures Daily",
         "Run a search",
-        "Tips"
+        "Search history"
       ],
       "headingSlugs": [
+        "searching-scriptures-daily",
         "run-a-search",
-        "tips"
+        "search-history"
       ],
-      "body": "Searching Scripture Marginalia can search across the translations you have loaded. Run a search Show me how Type a word or phrase in the search box, then submit. Results open in a Search tab in the side panel. Click any hit to jump to that verse in the main pane. Tips Load the translations you care about before searching so matches cover those texts. On smaller screens, open the side panel after a search to browse the result list."
+      "body": "Searching Scriptures Daily Marginalia can search across the contents of your starred translations, as well as the titles of any Resources you have loaded into your library. The search box also acts as a quick jump to any verse of the Bible, and keeps a history of your recent searches. Show me how Run a search The search can be accessed in three ways: The large search box at the top of the app. The small search box/icon in the toolbar. By hitting Ctrl+K on your keyboard. For quick access to any verse of the Bible: Type the book, chapter, and verse number into the search box, such as John 3:16, Deut 23:1, or simply Psalm 23. A preview of the verse will be displayed in a dropdown below the search bar. Hit Enter or click the search icon to jump to the verse. For searching the contents of your starred translations or Resource titles: Type a word or phrase in the search box. Hit Enter, or click the search icon to submit the search. - If search results are already being displayed, they will be updated with the new results. - Alternatively, select Open in a new tab or hit Ctrl+Enter to open the search results in a new tab. The text of your starred translations will be searched. Search results will open in a Search tab in the side panel. To search by resource titles, click the Search document titles link. Toggle the Old Testament, New Testament, or both using the OT and NT buttons. Verses are sorted by the order in which they appear in the Bible and your search words are highlighted in the text. Click any result to jump to that verse in the main pane. Search history The search box keeps a history of your recent searches. When the search box is focused, the most recent searches will be displayed in a dropdown below the search bar. Click a search to jump to it, or select it using the arrow keys on your keyboard and hit Enter to submit the search."
     },
     {
       "id": "translations",
       "title": "Translations panel",
-      "section": "Workspace",
+      "section": "Panels",
       "headings": [
-        "Walk through the panel",
         "Selected translations",
         "More Translations",
-        "Starring for a parallel Bible",
         "Rearranging with drag and drop"
       ],
       "headingSlugs": [
-        "walk-through-the-panel",
         "selected-translations",
         "more-translations",
-        "starring-for-a-parallel-bible",
         "rearranging-with-drag-and-drop"
       ],
-      "body": "Translations panel The Translations side panel shows the same verse in every translation you have selected, and lets you build a parallel Bible from starred ones. Open it by clicking a verse number (or selecting verse text) in the main pane, then choose the Translations tab if it is not already active. Walk through the panel Show me how Selected translations The left side lists each translation you have added for the current verse: Each card shows the translation name and the verse text (when that translation includes the passage). Click the verse reference at the top to jump back to that place in the main Bible pane. Use × to remove a translation from your selection (you cannot remove the last starred translation). More Translations The right column lists translations that match your language settings but are not yet selected. Type in Filter to narrow the list by id or name (for example ESV or Spanish). Click a translation name to add it. Newly added translations appear on the left as unstarred cards and download in the background the first time you use them. If the list is empty, open Settings and broaden the languages you allow, or connect another library under File Sync → Subscriptions. Starring for a parallel Bible The star on each selected card controls the parallel layout in the main pane: Starred translations appear side by side when you read. Unstarred translations stay available in this panel for comparison but do not join the parallel columns. You must keep at least one translation starred. After you add a translation from More Translations, click its star to include it in the parallel Bible. Rearranging with drag and drop Drag the ⋮ handle on a card header to reorder your selected translations. Order here matches the order of parallel columns in the main pane."
+      "body": "Translations panel The Translations side panel shows the same verse in every translation you have selected, and lets you build a parallel Bible from starred ones. Show me how The panel is accessed by clicking a verse number in the Bible, then choosing the Translations tab if not already active. The top of the panel displays the currently selected verse. Clicking it jumps back to that verse in your Bible. Selected translations The cards at the top list each translation you have added for the current verse: Cards show the text of each selected translation. Use × to remove a translation from your selection. You cannot remove the last starred translation, otherwise you would have no Bible! Star a translation to include it in the parallel Bible columns. The text of verses in your starred translations are also used for search results. More Translations A list of links at the bottom of the panel lets you pick additional translations that match your language settings. Type a search term in the filter field to narrow the list by name or even its abbreviation (for example Segond or ESV). Click a translation name to add it. Newly selected translations are added as unstarred cards. New languages can be added in Settings to include additional translations for those languages. Additional translations can also be added under Account Sync → Subscriptions. Rearranging with drag and drop Drag the ⋮ handle on a card header to reorder your selected translations. The order here will define the order of parallel translations in the Bible. Dragging a translation above/below starred/unstarred cards will change its star status."
     }
   ]
 }
