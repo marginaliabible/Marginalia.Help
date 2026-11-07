@@ -1,0 +1,9 @@
+{
+  "name": "marginalia-help",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Help content for Marginalia (articles, search index, and guided tours)",
+  "scripts": {
+    "build:index": "node scripts/build-search-index.mjs"
+  }
+}

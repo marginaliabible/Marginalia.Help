@@ -1,0 +1,44 @@
+{
+  "id": "use-translations-panel",
+  "steps": [
+    {
+      "target": "translations-panel",
+      "title": "Translations panel",
+      "content": "This panel shows the current verse in all the translations you have selected. Click the Translations tab to open the panel.",
+      "placement": "left",
+      "before": { "action": "ensureTranslationsTab" },
+      "advanceVisible": "translations-selected"
+    },
+    {
+      "target": "translations-selected",
+      "title": "Your selected translations",
+      "content": "Cards at the top show each selected translation and its text for this verse.",
+      "placement": "left"
+    },
+    {
+      "target": "translations-more",
+      "title": "More Translations",
+      "content": "Use this list to add more translations. Try it! Click a translation and it will appear as a new card above.",
+      "placement": "left"
+    },
+    {
+      "target": "translations-filter",
+      "title": "Filter the list",
+      "content": "Type part of a translation name or even its abbreviation (like KJV) to search More Translations.",
+      "placement": "left"
+    },
+    {
+      "target": "translations-unstar",
+      "title": "Star for parallel reading",
+      "content": "Star a translation and it will be added to the parallel Bible columns. Unstarred ones stay here for a deeper dive into a verse. You can't unstar your last translation.",
+      "placement": "right"
+    },
+    {
+      "target": "translations-drag-handle",
+      "spotlightTarget": "translations-selected",
+      "title": "Drag to rearrange",
+      "content": "Drag the ⋮ handle to reorder selected translations. Your starred translations will appear in the parallel Bible in that same order.",
+      "placement": "right"
+    }
+  ]
+}

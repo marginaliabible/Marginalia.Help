@@ -1,0 +1,11 @@
+{
+  "id": "try-search",
+  "steps": [
+    {
+      "target": "search-input",
+      "title": "Search",
+      "content": "Type a word or phrase here, then search to open results in the side panel.",
+      "placement": "bottom"
+    }
+  ]
+}

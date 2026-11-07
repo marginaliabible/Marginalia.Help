@@ -1,0 +1,60 @@
+{
+  "id": "open-settings",
+  "steps": [
+    {
+      "target": "settings-theme",
+      "title": "Theme",
+      "content": "Switch between light and dark mode. The default follows your browser preference.",
+      "placement": "left",
+      "before": { "action": "openSettings" }
+    },
+    {
+      "target": "settings-translator-italics",
+      "title": "Translator italics",
+      "content": "When on, words the translator added are shown in italics, for supported translations such as KJV.",
+      "placement": "left"
+    },
+    {
+      "target": "settings-translator-paragraphs",
+      "title": "Paragraph marks",
+      "content": "When on, paragraph start markings added by the translator are shown in the verse display, for supported translations such as KJV.",
+      "placement": "left"
+    },
+    {
+      "target": "settings-languages",
+      "title": "Languages",
+      "content": "Choose which languages appear when browsing and adding translations. Your browser language plus Biblical Hebrew and Ancient Greek are selected by default.",
+      "placement": "top"
+    },
+    {
+      "target": "settings-sources",
+      "title": "Sources",
+      "content": "Libraries and subscriptions are managed in File Sync → Subscriptions, not here in Settings.",
+      "placement": "top"
+    },
+    {
+      "target": "settings-user-id",
+      "title": "User ID",
+      "content": "Your internal account reference. Support may ask for it if you report an issue.",
+      "placement": "top"
+    },
+    {
+      "target": "settings-version",
+      "title": "App version",
+      "content": "The current build version of Marginalia.",
+      "placement": "top"
+    },
+    {
+      "target": "settings-version-copy",
+      "title": "Copy commit SHA",
+      "content": "Copies the full git commit for this beta build so you can include it when reporting an issue.",
+      "placement": "top"
+    },
+    {
+      "target": "settings-close",
+      "title": "Close",
+      "content": "Close Settings when you are done. Your choices were saved as you made them.",
+      "placement": "top"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "articles": [
+    {
+      "id": "getting-started",
+      "title": "Getting started",
+      "section": "Basics",
+      "path": "articles/getting-started.md"
+    },
+    {
+      "id": "settings",
+      "title": "Settings",
+      "section": "Basics",
+      "path": "articles/settings.md"
+    },
+    {
+      "id": "search",
+      "title": "Searching Scripture",
+      "section": "Basics",
+      "path": "articles/search.md"
+    },
+    {
+      "id": "translations",
+      "title": "Translations panel",
+      "section": "Panels",
+      "path": "articles/translations.md"
+    }
+  ],
+  "tours": [
+    {
+      "id": "open-settings",
+      "path": "tours/open-settings.json"
+    },
+    {
+      "id": "try-search",
+      "path": "tours/try-search.json"
+    },
+    {
+      "id": "use-translations-panel",
+      "path": "tours/use-translations-panel.json"
+    }
+  ]
+}

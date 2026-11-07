@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "documents": [
+    {
+      "id": "getting-started",
+      "title": "Getting started",
+      "section": "Basics",
+      "headings": [
+        "Open a Bible",
+        "Explore a verse",
+        "Get more help"
+      ],
+      "headingSlugs": [
+        "open-a-bible",
+        "explore-a-verse",
+        "get-more-help"
+      ],
+      "body": "Getting started II Timothy 2:15 Study to shew thyself approved unto God, a workman that needeth not to be ashamed, rightly dividing the word of truth. Marginalia has over 160 translations of the Bible in over 60 languages all wrapped in a modern, easy to use interface with an unlimited number of parallel Bibles. But Marginalia is unique in that it brings your own notes and your ministry's resources directly into your Bible! Open a Bible When the app loads, the King James Version is available locally. Use Settings to choose languages and connect additional translation libraries. Explore a verse Click a verse number (or select verse text) to open the side panel with Translations, Resources, and Links for that passage. Get more help Use the help icon in the header any time. Articles here stay in sync with the product; some include Show me how walkthroughs that highlight controls in the app itself."
+    },
+    {
+      "id": "settings",
+      "title": "Settings",
+      "section": "Basics",
+      "headings": [
+        "Walk through Settings",
+        "What you can change"
+      ],
+      "headingSlugs": [
+        "walk-through-settings",
+        "what-you-can-change"
+      ],
+      "body": "Settings Settings control theme, preferred Bible languages, and where to manage library sources. Walk through Settings Show me how You can also open Settings with the gear in the header, then click the help icon next to Close for the same walkthrough. What you can change Theme — light or dark mode Translator italics — italicize words supplied by the translator Paragraph marks — show paragraph markers Languages — which languages appear when browsing translations Sources — libraries and subscriptions live under File Sync → Subscriptions Close the dialog when you are done; your choices are remembered for the next visit. Available for supported translations such as KJV."
+    },
+    {
+      "id": "search",
+      "title": "Searching Scripture",
+      "section": "Basics",
+      "headings": [
+        "Run a search",
+        "Tips"
+      ],
+      "headingSlugs": [
+        "run-a-search",
+        "tips"
+      ],
+      "body": "Searching Scripture Marginalia can search across the translations you have loaded. Run a search Show me how Type a word or phrase in the search box, then submit. Results open in a Search tab in the side panel. Click any hit to jump to that verse in the main pane. Tips Load the translations you care about before searching so matches cover those texts. On smaller screens, open the side panel after a search to browse the result list."
+    },
+    {
+      "id": "translations",
+      "title": "Translations panel",
+      "section": "Workspace",
+      "headings": [
+        "Walk through the panel",
+        "Selected translations",
+        "More Translations",
+        "Starring for a parallel Bible",
+        "Rearranging with drag and drop"
+      ],
+      "headingSlugs": [
+        "walk-through-the-panel",
+        "selected-translations",
+        "more-translations",
+        "starring-for-a-parallel-bible",
+        "rearranging-with-drag-and-drop"
+      ],
+      "body": "Translations panel The Translations side panel shows the same verse in every translation you have selected, and lets you build a parallel Bible from starred ones. Open it by clicking a verse number (or selecting verse text) in the main pane, then choose the Translations tab if it is not already active. Walk through the panel Show me how Selected translations The left side lists each translation you have added for the current verse: Each card shows the translation name and the verse text (when that translation includes the passage). Click the verse reference at the top to jump back to that place in the main Bible pane. Use × to remove a translation from your selection (you cannot remove the last starred translation). More Translations The right column lists translations that match your language settings but are not yet selected. Type in Filter to narrow the list by id or name (for example ESV or Spanish). Click a translation name to add it. Newly added translations appear on the left as unstarred cards and download in the background the first time you use them. If the list is empty, open Settings and broaden the languages you allow, or connect another library under File Sync → Subscriptions. Starring for a parallel Bible The star on each selected card controls the parallel layout in the main pane: Starred translations appear side by side when you read. Unstarred translations stay available in this panel for comparison but do not join the parallel columns. You must keep at least one translation starred. After you add a translation from More Translations, click its star to include it in the parallel Bible. Rearranging with drag and drop Drag the ⋮ handle on a card header to reorder your selected translations. Order here matches the order of parallel columns in the main pane."
+    }
+  ]
+}
