@@ -20,14 +20,14 @@ For searching the contents of your starred [translations](translations) or [Reso
 - Type a word or phrase in the search box.
 - Hit `Enter`, or click the search icon to submit the search.
     - If search results are already being displayed, they will be updated with the new results.
-    - Alternatively, select **Open in a new tab** or hit `Ctrl+Enter` to open the search results in a new tab.
+    - Alternatively, select **Open in a new tab** or hit `Ctrl+Enter` to open the search results in a new panel tab.
 - The text of your starred translations will be searched. 
 - Search results will open in a **Search** tab in the side panel. 
 - To search by resource titles, click the **Search document titles** link.
 - Toggle the Old Testament, New Testament, or both using the `OT` and `NT` buttons.
 - Verses are sorted by the order in which they appear in the Bible and your search words are highlighted in the text.
-- Click any result to jump to that verse in the main pane.
+- Click any result to jump to that verse in your Bible.
 
 ## Search history
 
-The search box keeps a history of your recent searches. When the search box is focused, the most recent searches will be displayed in a dropdown below the search bar. Click a search to jump to it, or select it using the arrow keys on your keyboard and hit `Enter` to submit the search.
+The search box keeps a history of your recent searches. When the search box is focused, the most recent searches will be displayed in a dropdown below the search bar. Click a search apply it, or select it using the arrow keys on your keyboard and hit `Enter` to submit the search.

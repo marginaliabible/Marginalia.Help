@@ -3,9 +3,56 @@
   "steps": [
     {
       "target": "search-input",
-      "title": "Search",
-      "content": "Type a word or phrase here, then search to open results in the side panel.",
+      "title": "Search box",
+      "content": "Use this box to jump to a verse or search your starred translations. You can also access it with Ctrl+K (⌘K on Mac).",
       "placement": "bottom"
+    },
+    {
+      "target": "search-input",
+      "title": "Quick jump to a verse",
+      "content": "Type a reference such as John 3:16, Deut 23:1, or Psalm 23 then click the search icon or press Enter.",
+      "placement": "top",
+      "advanceEvent": "search-quick-jump"
+    },
+    {
+      "target": "selected-verse",
+      "title": "Opened verse",
+      "content": "The verse you typed opens in your Bible.",
+      "placement": "top"
+    },
+    {
+      "target": "search-input",
+      "title": "Search Scripture",
+      "content": "Try typing a word or phrase (for example \"it is written\"). Press Enter or click the search icon.",
+      "placement": "bottom",
+      "advanceVisible": "search-results"
+    },
+    {
+      "target": "search-results",
+      "spotlightTarget": "panel-tabs-content",
+      "title": "Search results",
+      "content": "Results open in a Search tab in the side panel. Matches come from your starred translations, with your search words highlighted.",
+      "placement": "left"
+    },
+    {
+      "target": "search-results",
+      "spotlightTarget": "panel-tabs-content",
+      "title": "Jump from a result",
+      "content": "Verses are sorted in Bible order. Clicking a verse opens it in your Bible.",
+      "placement": "left"
+    },
+    {
+      "target": "search-testament-toggles",
+      "title": "Filter by testament",
+      "content": "Toggle these filters show Old Testament matches, New Testament matches, or both.",
+      "placement": "left"
+    },
+    {
+      "target": "search-document-titles",
+      "spotlightTarget": "panel-tabs-content",
+      "title": "Search document titles",
+      "content": "Click here to search resource titles in your library instead of Scripture text. Click again to switch back to scriptures.",
+      "placement": "left"
     }
   ]
 }
