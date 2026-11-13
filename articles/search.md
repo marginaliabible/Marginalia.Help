@@ -17,7 +17,7 @@ For quick access to any verse of the Bible:
 - Hit `Enter` or click the search icon to jump to the verse.
 
 For searching the contents of your starred [translations](translations) or [Resource](resources) titles:
-- Type a word or phrase in the search box.
+- Type a word or phrase in the search box. Put a phrase in quotes (for example `"it is written"`) to match those words together in that order.
 - Hit `Enter`, or click the search icon to submit the search.
     - If search results are already being displayed, they will be updated with the new results.
     - Alternatively, select **Open in a new tab** or hit `Ctrl+Enter` to open the search results in a new panel tab.

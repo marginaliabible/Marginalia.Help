@@ -7,12 +7,7 @@
       "section": "Basics",
       "path": "articles/getting-started.md"
     },
-    {
-      "id": "settings",
-      "title": "Settings",
-      "section": "Basics",
-      "path": "articles/settings.md"
-    },
+
     {
       "id": "search",
       "title": "Searching Scripture",
@@ -20,10 +15,40 @@
       "path": "articles/search.md"
     },
     {
+      "id": "account-sync",
+      "title": "Account Sync",
+      "section": "Basics",
+      "path": "articles/account-sync.md"
+    },
+    {
+      "id": "document-viewer",
+      "title": "Document viewer",
+      "section": "Basics",
+      "path": "articles/document-viewer.md"
+    },
+    {
+      "id": "popout-windows",
+      "title": "Popout windows",
+      "section": "Basics",
+      "path": "articles/popout-windows.md"
+    },
+    {
+      "id": "settings",
+      "title": "Settings",
+      "section": "Basics",
+      "path": "articles/settings.md"
+    },
+    {
       "id": "translations",
       "title": "Translations panel",
       "section": "Panels",
       "path": "articles/translations.md"
+    },
+    {
+      "id": "resources",
+      "title": "Resources panel",
+      "section": "Panels",
+      "path": "articles/resources.md"
     }
   ],
   "tours": [
@@ -36,8 +61,16 @@
       "path": "tours/try-search.json"
     },
     {
-      "id": "use-translations-panel",
-      "path": "tours/use-translations-panel.json"
+      "id": "account-sync-connect",
+      "path": "tours/account-sync-connect.json"
+    },
+    {
+      "id": "translations-panel",
+      "path": "tours/translations-panel.json"
+    },
+    {
+      "id": "resources-panel",
+      "path": "tours/resources-panel.json"
     }
   ]
 }

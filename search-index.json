@@ -20,20 +20,6 @@
       "body": "Getting started II Timothy 2:15 Study to shew thyself approved unto God, a workman that needeth not to be ashamed, rightly dividing the word of truth. Marginalia has over 160 translations of the Bible in over 60 languages all wrapped in a modern, easy to use interface with an unlimited number of parallel Bibles. But Marginalia is unique in that it brings your own notes and your ministry's resources directly into your Bible! Open a Bible When the app loads, the King James Version is shown by default. Other translations from your browser's language are available as well. Open the Translations panel to explore other translations in your language, or use Settings to choose additional languages. Toolbar controls There will be a visual indication of the currently selected verse or verses. From the toolbar, you can: Copy the text of the verse to the clipboard by clicking the Copy button or pressing Ctrl+C. Copy the URL to the selected verse by clicking the Share button. Verse selection Multiple verses can be selected in multiple ways: On mobile, long-tap on a verse, then tap on another verse to select a range. With a verse selected, Shift+Click another verse to select a range of verses, or Ctrl to select multiple individual verses. Use Shift+Up or Shift+Down to select a range of verses. Use Ctrl+Up or Ctrl+Down to move your selection to the previous or next verse. Explore a verse Click a verse number (or select verse text) to open Translations, Resources, and Links for that passage in the side panel."
     },
     {
-      "id": "settings",
-      "title": "Settings",
-      "section": "Basics",
-      "headings": [
-        "Walk through Settings",
-        "What you can change"
-      ],
-      "headingSlugs": [
-        "walk-through-settings",
-        "what-you-can-change"
-      ],
-      "body": "Settings Settings control theme, preferred Bible languages, and where to manage library sources. Walk through Settings Show me how You can also open Settings with the gear in the header, then click the help icon next to Close for the same walkthrough. What you can change Theme — light or dark mode Translator italics — italicize words supplied by the translator Paragraph marks — show paragraph markers Languages — which languages appear when browsing translations Sources — libraries and subscriptions live under File Sync → Subscriptions Close the dialog when you are done; your choices are remembered for the next visit. Available for supported translations such as KJV."
-    },
-    {
       "id": "search",
       "title": "Searching Scripture",
       "section": "Basics",
@@ -47,7 +33,67 @@
         "run-a-search",
         "search-history"
       ],
-      "body": "Searching Scriptures Daily Marginalia can search across the contents of your starred translations, as well as the titles of any Resources you have loaded into your library. The search box also acts as a quick jump to any verse of the Bible, and keeps a history of your recent searches. Show me how Run a search The search can be accessed in three ways: The large search box at the top of the app. The small search box/icon in the toolbar. By hitting Ctrl+K on your keyboard. For quick access to any verse of the Bible: Type the book, chapter, and verse number into the search box, such as John 3:16, Deut 23:1, or simply Psalm 23. A preview of the verse will be displayed in a dropdown below the search bar. Hit Enter or click the search icon to jump to the verse. For searching the contents of your starred translations or Resource titles: Type a word or phrase in the search box. Hit Enter, or click the search icon to submit the search. - If search results are already being displayed, they will be updated with the new results. - Alternatively, select Open in a new tab or hit Ctrl+Enter to open the search results in a new tab. The text of your starred translations will be searched. Search results will open in a Search tab in the side panel. To search by resource titles, click the Search document titles link. Toggle the Old Testament, New Testament, or both using the OT and NT buttons. Verses are sorted by the order in which they appear in the Bible and your search words are highlighted in the text. Click any result to jump to that verse in the main pane. Search history The search box keeps a history of your recent searches. When the search box is focused, the most recent searches will be displayed in a dropdown below the search bar. Click a search to jump to it, or select it using the arrow keys on your keyboard and hit Enter to submit the search."
+      "body": "Searching Scriptures Daily Marginalia can search across the contents of your starred translations, as well as the titles of any Resources you have loaded into your library. The search box also acts as a quick jump to any verse of the Bible, and keeps a history of your recent searches. Show me how Run a search The search can be accessed in three ways: The large search box at the top of the app. The small search box/icon in the toolbar. By hitting Ctrl+K on your keyboard. For quick access to any verse of the Bible: Type the book, chapter, and verse number into the search box, such as John 3:16, Deut 23:1, or simply Psalm 23. A preview of the verse will be displayed in a dropdown below the search bar. Hit Enter or click the search icon to jump to the verse. For searching the contents of your starred translations or Resource titles: Type a word or phrase in the search box. Put a phrase in quotes (for example \"it is written\") to match those words together in that order. Hit Enter, or click the search icon to submit the search. - If search results are already being displayed, they will be updated with the new results. - Alternatively, select Open in a new tab or hit Ctrl+Enter to open the search results in a new panel tab. The text of your starred translations will be searched. Search results will open in a Search tab in the side panel. To search by resource titles, click the Search document titles link. Toggle the Old Testament, New Testament, or both using the OT and NT buttons. Verses are sorted by the order in which they appear in the Bible and your search words are highlighted in the text. Click any result to jump to that verse in your Bible. Search history The search box keeps a history of your recent searches. When the search box is focused, the most recent searches will be displayed in a dropdown below the search bar. Click a search apply it, or select it using the arrow keys on your keyboard and hit Enter to submit the search."
+    },
+    {
+      "id": "account-sync",
+      "title": "Account Sync",
+      "section": "Basics",
+      "headings": [
+        "Connecting your account",
+        "Selecting resources to sync",
+        "Usage and plan limits"
+      ],
+      "headingSlugs": [
+        "connecting-your-account",
+        "selecting-resources-to-sync",
+        "usage-and-plan-limits"
+      ],
+      "body": "Account Sync Account Sync is a fundamental feature of Marginalia that allows you to sync practically any digital file containing scripture references in your cloud provider such as Microsoft OneDrive or Google Drive to your Bible. They could be your own study notes, syllabus pages, digital books you've purchased, crazy Bible memes, or any other resource as long as it averages at least one scripture reference per page. Your resources are indexed by scripture reference then made available for each verse in your Bible alongside resources provided by your ministry. Connecting your account Presently, Marginalia supports syncing with Google Drive and Microsoft OneDrive Personal accounts. Show me how To connect your account: Click the Account Sync button in the upper-right corner of the app. Click the Connect button next to your provider of choice. Check the Sync my files checkbox and click Connect. Follow the prompts to grant Marginalia access to your files. Selecting resources to sync After you connect your account, in Account Sync you will be able to see your folders within the provider you connected. In the left panel, expand your provider and select folders which you would like to sync. In the right panel, apply one or more tags each folder. By default, all resources in the folder will be synced and share the same tags. You can alter the tags of specific files or subfolders, or exclude them from syncing using the <i class=\"fa-solid fa-arrows-rotate\" aria-label=\"Stop syncing\"></i> icon. Usage and plan limits Marginalia offers a generous one gigabyte of usage for free. After that, you can upgrade to a paid plan to continue syncing your resources. Your existing resources will remain available, but new resources will not be indexed until you upgrade or deselect some of your existing resources. Each file or folder displays its total size next to it. For reference, 1,000 KB is approximately 1 MB, and 1,000 MB is approximately 1 GB. You can deselect files or folders by clicking the <i class=\"fa-solid fa-arrows-rotate\" aria-label=\"Stop syncing\"></i> icon next to them. Deselected items display a <i class=\"fa-solid fa-upload\" aria-label=\"Resume syncing\"></i> icon. Clicking the icon again will re-select it. The progress bar at the bottom of the panel shows the total size required to index your selected. It updates automatically as you select or deselect items and has a key above it showing what each color on the bar represents along with the size of each segment. The green and yellow segments are the total size of your selected resources—Green for those within the limits of your currently selected plan, and yellow for those that exceed that limit. Each file that gets indexed requires a certain amount of bandwidth and processing power to analyze it. That cost is not recouped entirely when a file is deselected. Similarly, if a file is modified, the entire file must be re-indexed to reflect the changes. To offset this cost, when a file is deselected that was already indexed, only half of its original size will be removed from your usage. And when a file is modified, the original file size is retained in your overall usage. This is referred to as Committed Processing, and its impact is shown as a blue segment in the progress bar. A deselected file is kept for up to 10 days before it's deleted. Reselecting an unchanged file within that time will restore it to your usage and no longer counts as Committed Processing. Deselected files older than 10 days must be re-indexed so the original continues to count as Committed Processing."
+    },
+    {
+      "id": "document-viewer",
+      "title": "Document viewer",
+      "section": "Basics",
+      "headings": [
+        "Document Viewer",
+        "Toolbar",
+        "Zoom",
+        "Document Frame"
+      ],
+      "headingSlugs": [
+        "document-viewer",
+        "toolbar",
+        "zoom",
+        "document-frame"
+      ],
+      "body": "Document Viewer The document viewer opens a resource at a specific page from the Resources panel, highlighting scripture references in the document. Toolbar The toolbar at the top of the document viewer provides: The document title and page number Display/controls for Zoom <i class=\"fa-solid fa-arrows-rotate\" aria-hidden=\"true\"></i> Find in Account Sync - Opens the Account Sync panel to find this document in your synced resources. From there you can do things like removing the document from your synced resources or modifying its tags. <i class=\"fa-solid fa-cloud\" aria-hidden=\"true\"></i> / <i class=\"fa-brands fa-google-drive\" aria-hidden=\"true\"></i> Open in cloud - For documents synced from your cloud provider, opens the original file in OneDrive (<i class=\"fa-solid fa-cloud\" aria-hidden=\"true\"></i>) or Google Drive (<i class=\"fa-brands fa-google-drive\" aria-hidden=\"true\"></i>). <i class=\"fa-solid fa-up-right-from-square\" aria-hidden=\"true\"></i> Pop into new browser window (desktop only) - Opens the document in a new browser window. See Popout Windows for more details. Back To Verse - Closes the document viewer and returns to the Bible. Zoom The current zoom level is displayed in the toolbar. By default, document zooms to fit the available width. Resizing the document viewer will adjust the zoom automatically. When auto-zoom is enabled, the current zoom level display shows a <i class=\"fa-solid fa-arrows-left-right\" aria-hidden=\"true\"></i> icon. Zoom in and out buttons are also available on either side of the zoom level display. Clicking these will adjust the zoom level by 20% increments. Clicking the zoom level will reset to back to auto-zoom. Document Frame The document frame is the area of the document viewer that displays the document. It is the area that is scrollable. As the page is scrolled, the page number in the toolbar is updated to reflect the current page. Links to a document from the Resources panel open to the specific page on which a reference occurred, and highlights the scripture reference in the document. Verses in the document are given a dashed underline. When clicked, the verses will open in the Translations panel."
+    },
+    {
+      "id": "popout-windows",
+      "title": "Popout windows",
+      "section": "Basics",
+      "headings": [
+        "Popout Windows"
+      ],
+      "headingSlugs": [
+        "popout-windows"
+      ],
+      "body": "Popout Windows The Popout Windows feature is a great way to study if you have a large screen or multiple monitors. It is a desktop-only feature that lets you open the document viewer and/or the side panels (such as the Resources or Translations panels) in separate browser windows. These can be opened by clicking the <i class=\"fa-solid fa-up-right-from-square\" aria-hidden=\"true\"></i> button in the top-right corner of the document viewer or side panel. The first time you open a popout window you will be prompted to allow Marginalia to manage windows. Allowing this will let the app remember the last position and size of its windows and help Marginalia ensure windows are brought back to the foreground when they are reused. Once a window is popped out, other windows from Marginalia will interact with that window. For example, if you are viewing a document in a popped out document viewer and select a resource in the Resources panel, the resource will open in the popped out document viewer window. Similarly, if you select a Bible verse in your main window and the side panels are popped out, the corresponding translation will open in the popped out Translations panel. When this cross-window interaction happens, a toast notification will be displayed in the main window to let you know. Clicking \"Got it!\" will dismiss the notification and temporarily prevent it from being displayed."
+    },
+    {
+      "id": "settings",
+      "title": "Settings",
+      "section": "Basics",
+      "headings": [
+        "Walk through Settings",
+        "What you can change"
+      ],
+      "headingSlugs": [
+        "walk-through-settings",
+        "what-you-can-change"
+      ],
+      "body": "Settings Settings control theme, preferred Bible languages, and where to manage library sources. Walk through Settings Show me how You can also open Settings with the gear in the header, then click the help icon next to Close for the same walkthrough. What you can change Theme — light or dark mode Translator italics — italicize words supplied by the translator Paragraph marks — show paragraph markers Languages — which languages appear when browsing translations Sources — libraries and subscriptions live under File Sync → Subscriptions Close the dialog when you are done; your choices are remembered for the next visit. Available for supported translations such as KJV."
     },
     {
       "id": "translations",
@@ -64,6 +110,22 @@
         "rearranging-with-drag-and-drop"
       ],
       "body": "Translations panel The Translations side panel shows the same verse in every translation you have selected, and lets you build a parallel Bible from starred ones. Show me how The panel is accessed by clicking a verse number in the Bible, then choosing the Translations tab if not already active. The top of the panel displays the currently selected verse. Clicking it jumps back to that verse in your Bible. Selected translations The cards at the top list each translation you have added for the current verse: Cards show the text of each selected translation. Use × to remove a translation from your selection. You cannot remove the last starred translation, otherwise you would have no Bible! Star a translation to include it in the parallel Bible columns. The text of verses in your starred translations are also used for search results. More Translations A list of links at the bottom of the panel lets you pick additional translations that match your language settings. Type a search term in the filter field to narrow the list by name or even its abbreviation (for example Segond or ESV). Click a translation name to add it. Newly selected translations are added as unstarred cards. New languages can be added in Settings to include additional translations for those languages. Additional translations can also be added under Account Sync → Subscriptions. Rearranging with drag and drop Drag the ⋮ handle on a card header to reorder your selected translations. The order here will define the order of parallel translations in the Bible. Dragging a translation above/below starred/unstarred cards will change its star status."
+    },
+    {
+      "id": "resources",
+      "title": "Resources panel",
+      "section": "Panels",
+      "headings": [
+        "Resources Panel",
+        "Resource Tags",
+        "Resource Cards"
+      ],
+      "headingSlugs": [
+        "resources-panel",
+        "resource-tags",
+        "resource-cards"
+      ],
+      "body": "Resources Panel Marginalia indexes all of your resources by scripture reference then makes them available for each verse. Resources can include your own notes synced from your cloud provider and resources from your ministry, all of which are configured via Account Sync. You can then access those resources via the Resources side panel. Show me how The colorful circles around the verse numbers in your Bible indicate that resources are available for that verse. Multiple colors indicate there are different tagged resources available. Up to five colors will be displayed for a verse. If more than five different tags apply, a + symbol is also displayed. Clicking a verse number opens the Resources side panel for that verse. The top of the panel displays the currently selected verse or verses. Clicking the verse reference jumps to the first selected verse in your Bible. If multiple verses are selected, an ALL | ANY toggle lets filter to resources containing all the selected verses or any of them. Resource Tags When selecting resources from the Account Sync panel, you can tag resources, each tag being assigned a unique color. The tags for the currently selected verse or verses are displayed at the top of the Resources panel. Clicking a tag toggles the display of resources with that tag. Toggling persists for your current session, and is reflected in the colors of the circles around the verse numbers in your Bible. This allows you to browse only the resources you're interested in for your current study session. Below the tags are the resources for the currently selected verse(s)/tags. Each verse has a swatch with the color for each tag for that resource. You can view the resource name by hovering over the swatch (desktop) or long-pressing it (mobile). Resource Cards Each resource is displayed as a card with the resource's name, a swatch for each tag, the page number(s) the selected verse(s) appear on in that resource. Clicking a page number opens the resource to that page in the document viewer, highlighting the verse in the document."
     }
   ]
 }

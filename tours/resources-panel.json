@@ -1,0 +1,42 @@
+{
+  "id": "resources-panel",
+  "steps": [
+    {
+      "target": "verse-resource-donut",
+      "title": "Resource markers",
+      "content": "Colorful circles around verse numbers show that resources are available. Multiple colors mean different tags. Click a verse number to open the Resources panel.",
+      "placement": "right",
+      "before": { "action": "ensureResourcesTab" },
+      "advanceVisible": "resources-panel"
+    },
+    {
+      "target": "resources-reference",
+      "spotlightTarget": "panel-tabs-content",
+      "title": "Selected verse",
+      "content": "The top of the panel shows the selected verse or verses. Clicking the reference jumps back to that verse in your Bible.",
+      "placement": "left",
+      "before": { "action": "openResourcesPanel" }
+    },
+    {
+      "target": "resources-tags",
+      "spotlightTarget": "panel-tabs-content",
+      "title": "Resource tags",
+      "content": "When tags are present they appear near the top of the panel. Click a tag to show or hide resources with that tag. Your choices last for this session and update the colors around verse numbers in your Bible.",
+      "placement": "left"
+    },
+    {
+      "target": "resources-document",
+      "spotlightTarget": "panel-tabs-content",
+      "title": "Resource cards",
+      "content": "Each card is a resource for the selected verse(s). Color swatches show its tags—hover (or long-press on mobile) to see the tag name.",
+      "placement": "left"
+    },
+    {
+      "target": "resources-page-link",
+      "spotlightTarget": "resources-document",
+      "title": "Open a page",
+      "content": "Page numbers show where the selected verse(s) appear in that resource. Click a page number to open the document at that page with the verse highlighted.",
+      "placement": "left"
+    }
+  ]
+}

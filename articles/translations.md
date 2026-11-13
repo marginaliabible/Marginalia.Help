@@ -2,7 +2,7 @@
 
 The **Translations** side panel shows the same verse in every translation you have selected, and lets you build a parallel Bible from starred ones.
 
-[Show me how](tour:use-translations-panel)
+[Show me how](tour:translations-panel)
 
 The panel is accessed by clicking a verse number in the Bible, then choosing the **Translations** tab if not already active. The top of the panel displays the currently selected verse. Clicking it jumps back to that verse in your Bible.
 

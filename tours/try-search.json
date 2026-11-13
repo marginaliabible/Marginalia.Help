@@ -23,7 +23,7 @@
     {
       "target": "search-input",
       "title": "Search Scripture",
-      "content": "Try typing a word or phrase (for example \"it is written\"). Press Enter or click the search icon.",
+      "content": "Try typing a word, or phrase (for example \"it is written\", with or without quotes). Press Enter or click the search icon.",
       "placement": "bottom",
       "advanceVisible": "search-results"
     },

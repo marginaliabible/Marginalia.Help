@@ -1,0 +1,33 @@
+{
+  "id": "account-sync-connect",
+  "steps": [
+    {
+      "target": "account-sync-button",
+      "title": "Account Sync",
+      "content": "Click the Account Sync button in the upper-right corner of the app.",
+      "placement": "left",
+      "advanceVisible": "account-sync-modal"
+    },
+    {
+      "target": "account-sync-provider-connect",
+      "spotlightTarget": "cloud-folder-providers-pane",
+      "title": "Choose a provider",
+      "content": "Click Connect next to Google Drive or Microsoft OneDrive.",
+      "placement": "right",
+      "before": { "action": "openAccountSync" },
+      "advanceVisible": "account-sync-connect-modal"
+    },
+    {
+      "target": "account-sync-sync-files",
+      "title": "Sync my files",
+      "content": "Check Sync my files so Marginalia can index your notes by scripture reference.",
+      "placement": "left"
+    },
+    {
+      "target": "account-sync-connect-submit",
+      "title": "Connect",
+      "content": "Click Connect, then follow the prompts to grant Marginalia access to your files.",
+      "placement": "top"
+    }
+  ]
+}

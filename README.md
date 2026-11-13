@@ -19,13 +19,14 @@ Marginalia.UI loads these files asynchronously over CDN (jsDelivr / raw.githubus
 1. Add or edit markdown under `articles/` and list it in `manifest.json`.
 2. For “Show me how” links in markdown, use `tour:<tour-id>` (e.g. `[Show me how](tour:open-settings)`).
 3. To jump to the first tour step for a UI target, use `target:<target-id>` or `target:<tour-id>.<target-id>` (e.g. `[cards](target:translations-selected)`). The UI opens whatever host surface that step needs (Translations panel, Settings, etc.).
-4. Regenerate the search index:
+4. Inline HTML is allowed in articles (via `rehype-raw` in the UI). Prefer small trusted snippets such as Font Awesome icons already used in the app, e.g. `<i class="fa-solid fa-arrows-rotate" aria-hidden="true"></i>`.
+5. Regenerate the search index:
 
 ```bash
 npm run build:index
 ```
 
-5. Commit both the article changes and the updated `search-index.json`.
+6. Commit both the article changes and the updated `search-index.json`.
 
 ## Tours
 
@@ -81,6 +82,17 @@ Event names are defined in Marginalia.UI (`emitHelpTourEvent`). Currently:
 | `search-quick-jump` | The user jumps to a verse from the search box (Enter, search icon, or the jump preview) |
 
 New events need a matching `emitHelpTourEvent('…')` call in the UI before a tour can wait on them.
+
+Tour step `content` may include markdown-style Help article links: `[Account Sync](account-sync)`.
+
+### Tour prerequisites (`resources-panel`)
+
+Some tours run quiet host checks before the first step. The `resources-panel` tour:
+
+1. Requires at least one linked cloud provider (Google Drive or OneDrive). If none, it shows a blocking message with a link to `account-sync`.
+2. Requires a chapter with at least one non-empty resource donut. If the current chapter has none, the host navigates to the first chapter that does. If no resources exist at all, it shows a blocking message linking to `account-sync`.
+
+When both checks pass, the tour starts with no extra prompts.
 
 ## CDN
 
