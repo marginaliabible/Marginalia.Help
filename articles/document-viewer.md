@@ -7,7 +7,7 @@ The document viewer opens a resource at a specific page from the [Resources pane
 The toolbar at the top of the document viewer provides:
 - The document title and page number
 - Display/controls for [Zoom](#zoom)
-- <i class="fa-solid fa-arrows-rotate" aria-hidden="true"></i> *Find in Account Sync* - Opens the [Account Sync](account-sync) panel to find this document in your synced resources. From there you can do things like removing the document from your synced resources or modifying its tags.
+- <i class="fa-solid fa-arrows-rotate" aria-hidden="true"></i> *Find in Account Sync* - Opens the [Account Sync](account-sync) panel to find this document in your synced resources (including **Local Folders**). From there you can do things like removing the document from your synced resources or modifying its tags.
 - <i class="fa-solid fa-cloud" aria-hidden="true"></i> / <i class="fa-brands fa-google-drive" aria-hidden="true"></i> *Open in cloud* - For documents synced from your cloud provider, opens the original file in OneDrive (<i class="fa-solid fa-cloud" aria-hidden="true"></i>) or Google Drive (<i class="fa-brands fa-google-drive" aria-hidden="true"></i>).
 - <i class="fa-solid fa-up-right-from-square" aria-hidden="true"></i> *Pop into new browser window* (desktop only) - Opens the document in a new browser window. See [Popout Windows](popout-windows) for more details.
 - *Back To Verse* - Closes the document viewer and returns to the Bible.

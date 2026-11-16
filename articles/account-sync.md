@@ -1,8 +1,16 @@
 # Account Sync
 [Account Sync](target:account-sync-button) is a fundamental feature of Marginalia that allows you to sync practically any digital file containing scripture references in your cloud provider such as Microsoft OneDrive or Google Drive to your Bible. They could be your own study notes, syllabus pages, digital books you've purchased, crazy Bible memes, or any other resource as long as it averages at least one scripture reference per page. Your resources are indexed by scripture reference then made available for each verse in your Bible alongside resources provided by your ministry.
 
-## Connecting your account
-Presently, Marginalia supports syncing with Google Drive and Microsoft OneDrive Personal accounts.
+## Connecting your provider
+Marginalia supports syncing your files on your computer, or via cloud providers like Google Drive and Microsoft OneDrive Personal accounts.
+
+### Local Folders
+The Local Folders feature lets Marginalia sync folders from your computer. You must first log in to Google Drive or OneDrive with **Sync my settings** so we can associate your folder selections with your Marginalia account. Next, choose **Connect** next to Local Folders and it will prompt you to install Marginalia Watchman – a small app that runs in the background to sync your files. You can then browse and add your local folders in Marginalia for syncing.
+
+[Show me how](tour:local-folders-settings-gate)
+
+### Cloud Providers
+If you don't have a computer or would rather connect directly to your cloud provider, Marginalia supports this as well. However, using [Local Folders](#local-folders) instead is strongly recommended if available. Due to how cloud providers work, Marginalia requires access to your entire cloud drive which poses a security risk. Use cloud provider sync with caution.
 
 [Show me how](tour:account-sync-connect)
 
@@ -14,7 +22,7 @@ To connect your account:
 - Follow the prompts to grant Marginalia access to your files.
 
 ## Selecting resources to sync
-After you [connect your account](#connecting-your-account), in Account Sync you will be able to see your folders within the provider you connected.
+After you [connect your provider](#connecting-your-provider), in Account Sync you will be able to see your folders within the provider you connected.
 - In the left panel, expand your provider and select folders which you would like to sync.
 - In the right panel, apply one or more tags each folder.
 - By default, all resources in the folder will be synced and share the same tags. You can alter the tags of specific files or subfolders, or exclude them from syncing using the <i class="fa-solid fa-arrows-rotate" aria-label="Stop syncing"></i> icon.

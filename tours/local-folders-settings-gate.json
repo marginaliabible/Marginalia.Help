@@ -1,0 +1,33 @@
+{
+  "id": "local-folders-settings-gate",
+  "steps": [
+    {
+      "target": "account-sync-button",
+      "title": "Account Sync",
+      "content": "Local Folders need Sync my settings first. Open Account Sync to connect Google Drive or OneDrive for settings sync.",
+      "placement": "left",
+      "advanceVisible": "account-sync-modal"
+    },
+    {
+      "target": "account-sync-provider-connect",
+      "spotlightTarget": "cloud-folder-providers-pane",
+      "title": "Connect a cloud account",
+      "content": "Click Connect next to Google Drive or OneDrive. You only need Sync my settings to unlock Local Folders—you can turn on Sync my files later.",
+      "placement": "right",
+      "before": { "action": "openAccountSync" },
+      "advanceVisible": "account-sync-connect-modal"
+    },
+    {
+      "target": "account-sync-sync-files",
+      "title": "Uncheck Sync my files",
+      "content": "*Uncheck* the **Sync my files** checkbox to prevent syncing your files to the cloud, since you will be using Local Folders instead.",
+      "placement": "top"
+    },
+    {
+      "target": "account-sync-connect-submit",
+      "title": "Finish sign-in",
+      "content": "Connect with Sync my settings enabled, then return to Local Folders to install the Watchman desktop client.",
+      "placement": "top"
+    }
+  ]
+}

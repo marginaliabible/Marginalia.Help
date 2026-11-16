@@ -12,7 +12,7 @@
       "target": "account-sync-provider-connect",
       "spotlightTarget": "cloud-folder-providers-pane",
       "title": "Choose a provider",
-      "content": "Click Connect next to Google Drive or Microsoft OneDrive.",
+      "content": "Click Connect next to Google Drive or OneDrive.",
       "placement": "right",
       "before": { "action": "openAccountSync" },
       "advanceVisible": "account-sync-connect-modal"

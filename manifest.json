@@ -65,6 +65,10 @@
       "path": "tours/account-sync-connect.json"
     },
     {
+      "id": "local-folders-settings-gate",
+      "path": "tours/local-folders-settings-gate.json"
+    },
+    {
       "id": "translations-panel",
       "path": "tours/translations-panel.json"
     },

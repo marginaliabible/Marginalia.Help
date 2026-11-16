@@ -83,7 +83,7 @@ Event names are defined in Marginalia.UI (`emitHelpTourEvent`). Currently:
 
 New events need a matching `emitHelpTourEvent('…')` call in the UI before a tour can wait on them.
 
-Tour step `content` may include markdown-style Help article links: `[Account Sync](account-sync)`.
+Tour step `content` is markdown (same `react-markdown` path as Help articles). Use `*italic*`, `**bold**`, and Help article links: `[Account Sync](account-sync)`.
 
 ### Tour prerequisites (`resources-panel`)
 
